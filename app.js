@@ -45,6 +45,7 @@ function findOrder(email) {
 search.addEventListener('click', () => {
     let email = findEmail.value
     findEmail.value = ''
+    console.log(findOrder(email))
     return findOrder(email)
 })
 
